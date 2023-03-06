@@ -1,0 +1,103 @@
+:root {
+  --primary-font: "Roboto", sans-serif;
+  --secondary-font: "Relawey";
+  --bgcolor-primary: #e5e5e5;
+  --bgcolor: #2e2f42;
+  --header-color: #ffffff;
+  --primary-color: #2e2f42;
+  --text-color: #434455;
+  --web-color: #4d5ae5;
+  --footer-text: #e7e9fc;
+  --studio-color: #f4f4fd;
+  --active-color: #404bbf;
+  --teambg-color: #f4f4fd;
+}
+body {
+  font-family: var(--primary-font);
+  letter-spacing: 0.02em;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+
+/* Сторінка */
+.logo {
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--primary-color);
+  font-family: var(--secondary-font);
+}
+.web-color {
+  color: var(--web-color);
+}
+.site-nav {
+  color: var(--primary-color);
+}
+.header-contacts {
+  color: var(--text-color);
+}
+
+.order-section {
+  background-color: #2e2f42;
+  width: 1440px;
+  height: 600px;
+}
+.order-text {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 60px;
+  color: #ffffff;
+}
+.order-button {
+  width: 169px;
+  height: 56px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  background-color: var(--web-color);
+}
+.order-button:focus {
+  color: red;
+}
+.order-button {
+  cursor: pointer;
+}
+.color-h {
+  color: var(--primary-color);
+}
+.team-section {
+  background-color: var(--teambg-color);
+}
+
+/*2 pages*/
+.page-nav {
+  letter-spacing: 0.04em;
+}
+.page-nav > li {
+  cursor: pointer;
+}
+
+/*footer*/
+.footer-section {
+  background-color: var(--bgcolor);
+}
+.logo-footer {
+  color: var(--studio-color);
+  font-family: var(--secondary-font);
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: 0.03em;
+}
+.text-footer {
+  color: var(--footer-text);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+}
