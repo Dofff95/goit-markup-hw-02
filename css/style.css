@@ -52,9 +52,17 @@ a {
 .header-nav {
   color: var(--primary-color);
 }
+.address-header {
+  list-style: none;
+}
 .contacts:hover,
 .contacts:focus {
   color: var(--accent-color);
+}
+.header-contacts {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02e;
 }
 .contacts {
   color: var(--text-color);
