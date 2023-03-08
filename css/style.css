@@ -1,6 +1,6 @@
 :root {
   --primary-font: "Roboto", sans-serif;
-  --secondary-font: "Relawey";
+  --secondary-font: "Relawey", sans-serif;
   --accent-color: #404bbf;
   --bgcolor-primary: #e5e5e5;
   --white-color: #ffffff;
@@ -12,7 +12,7 @@
 }
 body {
   font-family: var(--primary-font);
-  color: var(--primary-color);
+  color: var(--text-color);
   letter-spacing: 0.02em;
   font-size: 16px;
 }
@@ -31,9 +31,11 @@ a {
   letter-spacing: 0.03em;
   color: var(--primary-color);
   font-family: var(--secondary-font);
-}
-.web-color {
+  text-transform: uppercase;
   color: var(--web-color);
+}
+.web-color-header {
+  color: var(--primary-color);
 }
 .site-nav {
   color: var(--primary-color);
@@ -60,12 +62,14 @@ a {
   height: 600px;
 }
 .order-text {
+  text-align: center;
   font-weight: 700;
   font-size: 56px;
   line-height: 1.07;
   color: #ffffff;
 }
 .order-button {
+  font-family: var(--primary-font);
   width: 169px;
   height: 56px;
   font-weight: 500;
@@ -84,25 +88,37 @@ a {
 }
 .title {
   color: var(--primary-color);
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
 }
 .paragraph {
   color: var(--text-color);
+  line-height: 1.5;
 }
 .team-section {
   background-color: var(--primary-color-in-dark-them);
 }
 .team-title {
+  text-align: center;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.111;
+  line-height: 1.11;
 }
 .what-section {
+  text-align: center;
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
-  line-height: 1.111;
+  line-height: 1.11;
 }
 
 /*===================================2 pages==============================*/
+.list {
+  list-style: none;
+  text-decoration: none;
+}
 .page-nav {
   letter-spacing: 0.04em;
 }
@@ -111,7 +127,7 @@ a {
   background-color: var(--primary-color-in-dark-them);
   border: 1px solid #e7e9fc;
   border-radius: 4px;
-  font-family: "Roboto";
+  font-family: "Roboto, sans-serif";
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
@@ -128,12 +144,15 @@ a {
   background-color: var(--primary-color);
 }
 .logo-footer {
-  color: var(--primary-color-in-dark-them);
+  color: var(--web-color);
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
   line-height: 1.666;
   letter-spacing: 0.03em;
+}
+.web-color-footer {
+  color: var(--primary-color-in-dark-them);
 }
 .text-footer {
   color: var(--footer-text);
