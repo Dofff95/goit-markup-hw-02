@@ -34,6 +34,7 @@ a {
   text-transform: uppercase;
   color: var(--web-color);
   text-decoration: none;
+  font-family: "Raleway", sans-serif;
 }
 .list {
   list-style: none;
@@ -72,6 +73,7 @@ a {
   font-size: 56px;
   line-height: 1.07;
   color: #ffffff;
+  letter-spacing: 0.02em;
 }
 .order-button {
   font-family: var(--primary-font);
@@ -154,7 +156,7 @@ a {
 }
 .logo-footer {
   color: var(--web-color);
-  font-family: var(--secondary-font);
+  font-family: "Raleway", sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 1.17;
