@@ -123,8 +123,6 @@ a {
   background-color: var(--accent-color);
   color: var(--white-color);
 }
-.visually-hiden {
-}
 /*====================================footer==============================*/
 .footer-section {
   background-color: var(--primary-color);
@@ -139,6 +137,5 @@ a {
 }
 .text-footer {
   color: var(--footer-text);
-  font-weight: 400;
   line-height: 1.5;
 }
