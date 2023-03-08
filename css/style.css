@@ -27,12 +27,16 @@ a {
 .logo {
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.333;
+  line-height: 1.17;
   letter-spacing: 0.03em;
   color: var(--primary-color);
   font-family: var(--secondary-font);
   text-transform: uppercase;
   color: var(--web-color);
+  text-decoration: none;
+}
+.list {
+  list-style: none;
 }
 .web-color-header {
   color: var(--primary-color);
@@ -60,6 +64,7 @@ a {
   background-color: #2e2f42;
   width: 1440px;
   height: 600px;
+  letter-spacing: 0.02em;
 }
 .order-text {
   text-align: center;
@@ -91,6 +96,7 @@ a {
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .paragraph {
   color: var(--text-color);
@@ -100,13 +106,16 @@ a {
   background-color: var(--primary-color-in-dark-them);
 }
 .team-title {
+  color: var(--primary-color);
   text-align: center;
   text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
+  letter-spacing: 0.02em;
 }
 .what-section {
+  color: var(--primary-color);
   text-align: center;
   text-transform: capitalize;
   font-weight: 700;
@@ -148,8 +157,9 @@ a {
   font-family: var(--secondary-font);
   font-weight: 800;
   font-size: 18px;
-  line-height: 1.666;
+  line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
 }
 .web-color-footer {
   color: var(--primary-color-in-dark-them);
