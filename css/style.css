@@ -117,6 +117,8 @@ a {
 .paragraph {
   color: var(--text-color);
   line-height: 1.5;
+  font-size: 16px;
+  letter-spacing: 0.02em;
 }
 .team-section {
   background-color: var(--primary-color-in-dark-them);
