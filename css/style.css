@@ -51,9 +51,14 @@ a {
 }
 .header-nav {
   color: var(--primary-color);
+  font-weight: 500;
+  line-height: 1.5;
 }
 .address-header {
   list-style: none;
+}
+.address-header {
+  font-style: normal;
 }
 .contacts:hover,
 .contacts:focus {
